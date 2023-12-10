@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECG Analyzer</title>
+</head>
+<body>
+    <section>
+        <header>
+            <!-- nav bar start -->
+            <a href="#"><img class="logo" src="static/images/logo.png" alt="Logo"></a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="{{ url_for('lipid_test') }}">Lipid Test Evaluation</a></li>
+                <li><a href="{{ url_for('main') }}">Heart Disease Predictor</a></li>
+                <li><a href="{{ url_for('ecg') }}">ECG Analysis</a></li>
+            </ul>
+            <!-- nav bar end -->
+        </header>
+    </section>
+</body>
+</html>
